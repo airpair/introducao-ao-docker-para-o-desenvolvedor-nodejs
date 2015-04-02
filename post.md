@@ -1,4 +1,6 @@
-(english version of the post here)
+> English version of the post [here](https://www.airpair.com/posts/review/5516f8187fb1af1100e5a297)
+
+> Nota: o post também está disponível no Medium [aqui](https://medium.com/@heitorburger/introdu%C3%A7%C3%A3o-ao-docker-para-o-desenvolvedor-node-js-f58e1630065f)
 
 **Nível de dificuldade:** Iniciante
 
@@ -308,7 +310,7 @@ Após isso, volte para seu terminal e faça o login:
 $ docker login
 ```
 
-Agora que estamos logados no cli, podemos fazer o "push" de nossas imagem parar o Docker Hub. Primeiro, vamos renomea-la adicionando nosso username, então assim como adicionamos uma tag antes:
+Agora que estamos logados no cli, podemos fazer o "push" de nossa imagem para o Docker Hub. Primeiro, vamos renomea-la adicionando nosso username, então assim como adicionamos uma tag antes:
 
 ```bash,linenums=true
 $ docker tag node-express your_docker_hub_username/node-express  
@@ -322,7 +324,7 @@ Feito! Agora qualquer um com Docker instalado pode executar:
 $ docker pull your_docker_hub_username/node-express
 ```
 
-E ter exatamente o mesmo ambiente com Ubuntu, Node.js, npm e o pacote express-generator the usamos anteriormente.
+E ter exatamente o mesmo ambiente com Ubuntu, Node.js, npm e o pacote express-generator que usamos anteriormente.
 
 ### Próximo post: Adicionando Docker a uma aplicação existente, executando e conectando containers
 
